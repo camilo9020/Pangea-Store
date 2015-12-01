@@ -12,6 +12,7 @@ gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'omniauth-facebook'
 gem 'annotate'
+gem 'bootstrap_sb_admin_base_v2'
 gem "figaro"
 gem 'simple_form'
 

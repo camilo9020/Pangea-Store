@@ -33,15 +33,15 @@
                 } // NUMBERS COUNTER END
 		
 
-				var tpj=jQuery;
-				tpj.noConflict();
+				//var tpj=jQuery;
+				//tpj.noConflict();
 
-				tpj(document).ready(function() {
+				jQuery(document).ready(function() {
 
-				if (tpj.fn.cssOriginal!=undefined)
-					tpj.fn.css = tpj.fn.cssOriginal;
+				if (jQuery.fn.cssOriginal!=undefined)
+					jQuery.fn.css = jQuery.fn.cssOriginal;
 
-					tpj('.banner').revolution(
+					jQuery('.banner').revolution(
 						{
 							delay:9000,
 							startheight:500,

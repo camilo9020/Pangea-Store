@@ -15,6 +15,8 @@ gem 'annotate'
 gem 'bootstrap_sb_admin_base_v2'
 gem "figaro"
 gem 'simple_form'
+gem 'jquery-ui-rails'
+gem 'jquery-countdown-rails'
 
 group :development, :test do  
   gem 'sqlite3'
